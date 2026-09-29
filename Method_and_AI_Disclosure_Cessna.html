@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Note on Method &mdash; Jefferson&rsquo;s Bargain: The 1969 Betrayal</title>
+<meta name="description" content="How the research and drafting behind these articles and the book were done, including the use of AI tools, disclosed in full.">
+<style>
+  :root { --ink:#1a1a1a; --muted:#5a5a5a; --rule:#d8d8d8; --accent:#7a2e2e; --wash:#f7f5f2; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:0 1.25rem 4rem;
+    font:17px/1.62 Georgia,"Times New Roman",serif;
+    color:var(--ink); background:#fff;
+  }
+  .wrap { max-width:44rem; margin:0 auto; }
+  header { padding:2.75rem 0 0; }
+  .kicker {
+    font:600 12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    letter-spacing:.13em; text-transform:uppercase; color:var(--muted); margin:0 0 .6rem;
+  }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .5rem; font-weight:700; }
+  .posted {
+    font:400 14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--muted); margin:0 0 1.75rem;
+  }
+  hr { border:0; border-top:1px solid var(--rule); margin:2rem 0; }
+  h2 {
+    font-size:1.18rem; line-height:1.3; margin:2.25rem 0 .6rem; font-weight:700;
+  }
+  p { margin:0 0 1.05rem; }
+  .lede { font-size:1.09rem; }
+  strong { font-weight:700; }
+  ul { margin:0 0 1.05rem; padding-left:1.15rem; }
+  li { margin:0 0 .55rem; }
+  a { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
+  a:hover { text-decoration:none; }
+  blockquote {
+    margin:1.2rem 0; padding:.15rem 0 .15rem 1.1rem;
+    border-left:3px solid var(--rule); color:#333; font-style:italic;
+  }
+  .box {
+    background:var(--wash); border:1px solid var(--rule);
+    padding:1.1rem 1.25rem; margin:1.75rem 0; border-radius:3px;
+  }
+  .box p:last-child { margin-bottom:0; }
+  .box .h {
+    font:600 12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    letter-spacing:.11em; text-transform:uppercase; color:var(--muted); margin:0 0 .55rem;
+  }
+  footer {
+    margin-top:3rem; padding-top:1.4rem; border-top:1px solid var(--rule);
+    font:400 15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--muted);
+  }
+  .back { display:inline-block; margin-bottom:2rem; font:400 15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  @media (max-width:600px){ body{font-size:16px;} h1{font-size:1.6rem;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Jefferson&rsquo;s Bargain &amp; the 1969 Betrayal</p>
+  <h1>A Note on Method</h1>
+  <p class="posted">Posted 29 September 2026, to accompany the essay &ldquo;Jefferson&rsquo;s Bargain: When Patents Expire, Anyone May Build. The 1969 Betrayal.&rdquo;</p>
+</header>
+
+<hr>
+
+<p class="lede">The research and drafting behind these articles, and behind the book they draw on, were AI&#8209;assisted. This page says how, in full and without being asked. The same disclosure has accompanied this work in public since May 2025, while the argument was still being developed.</p>
+
+<h2>What AI did not do</h2>
+
+<p>No AI system conceived or authored the argument. The constitutional claim &mdash; that the words <em>limited Times</em> promise the public a commons the modern regulatory wall prevents from ever arriving &mdash; came from around two years of reading in patent law, regulatory economics, and constitutional doctrine. So did the platform&#8209;year remedy, the plaintiff classes, and the reading of the 1969 Cessna record that the essay sets out.</p>
+
+<p>The book states this in its own appendix, and the same holds for the articles:</p>
+
+<blockquote>No AI system independently conceived or authored this book&hellip; The author determined its arguments, methodology, structure, arrangement, factual conclusions, and final language, accepting, rejecting, verifying, or rewriting every model output, and editing extensively by hand.</blockquote>
+
+<h2>What AI did do</h2>
+
+<p>Eleven models were used, each for limited functions, none of them writing the work:</p>
+
+<ul>
+  <li><strong>Claude</strong> (Anthropic) &mdash; prose drafting and structural editing under direction.</li>
+  <li><strong>OpenCase</strong> &mdash; a legal&#8209;research engine trained on Cornell&rsquo;s Legal Information Institute datasets and indexed against federal and state opinion archives. Used to surface candidate authorities and, deliberately, to argue <em>against</em> the thesis.</li>
+  <li><strong>Abacus DeepAgent</strong> &mdash; multi&#8209;step retrieval of sources and primary documents.</li>
+  <li><strong>SuperGrok</strong> (xAI) &mdash; material published on X that other systems cannot read.</li>
+  <li><strong>GPT&#8209;6 Astra</strong> (OpenAI) &mdash; cross&#8209;model auditing of drafted output.</li>
+</ul>
+
+<p><strong>Every citation any tool produced was checked against the primary source before use.</strong> Where a figure could not be verified against a primary source, it is marked as unverified rather than quietly carried. The <a href="https://marti124.github.io/Patent_Cessna_Article/Cessna_Article_Refs.html">annotated bibliography for the essay</a> carries a live link for every source, and says in plain words what each one establishes, so that any reader can repeat that check independently.</p>
+
+<div class="box">
+  <p class="h">A separate matter: the open-book examination</p>
+  <p>The articles and the book also describe an examination in which eleven independent models were handed the same materials and the same question, and each reached the same conclusion about the constitutional argument. <strong>That is a test of the argument, not a description of how it was written.</strong> The two are easy to confuse and are kept distinct here. The examination is a check on the reasoning by systems that had no part in producing it; this page is about the writing. Convergence among models decides nothing in any event &mdash; only a court can. <a href="https://marti124.github.io/Patent_Exam/">The examination is public</a>, including the raw replies, so readers may judge it themselves.</p>
+</div>
+
+<h2>The public record predates the manuscript</h2>
+
+<p>This disclosure is not a concession offered at publication. It is the continuation of a practice followed in public while the work was in progress.</p>
+
+<p>The spine of the constitutional argument &mdash; the <em>limited Times</em> constraint, Jefferson&rsquo;s 1813 letter to Isaac McPherson, the patent as a social contract, and 1970 as the hinge &mdash; was published under the author&rsquo;s name on <strong>18 May 2025</strong>, more than a year before the book took its present form. That article disclosed the AI research at the time it ran. The vehicle argument ran in March 2025. The legislative&#8209;voting work was argued publicly in June 2024. The work was assembled over years from material already published, already timestamped, and already argued in front of readers.</p>
+
+<h2>The legal footing</h2>
+
+<p>On 29 January 2025 the United States Copyright Office issued Part 2 of its report on copyright and artificial intelligence. It concluded that works created by human authors using AI tools are eligible for copyright protection where the human supplies substantial creative direction, selection, and arrangement, and stated that the use of AI to assist in the process of creation, or the inclusion of AI&#8209;generated material within a larger human&#8209;generated work, does not bar copyrightability. This work was produced on that basis and adheres to that guidance.</p>
+
+<h2>Where the complete account lives</h2>
+
+<p>Appendix B of <em>The Forgotten Half of the Patent Clause</em> is given over entirely to this question, including which model produced which analysis. Appendix C reprints, unedited, what each of the eleven models said when handed the authorities. Both are public in the <a href="https://marti124.github.io/Patent_EndNotes/">endnotes apparatus</a>, alongside a live link for every citation in the book.</p>
+
+<hr>
+
+<footer>
+  <p><a class="back" href="https://marti124.github.io/Patent_Cessna_Article/">&larr; Back to Jefferson&rsquo;s Bargain &amp; the 1969 Betrayal</a></p>
+  <p>Roleigh Martin &middot; <a href="mailto:RoleighMartin@proton.me">RoleighMartin@proton.me</a> &middot; <a href="https://x.com/RoleighMartin">x.com/RoleighMartin</a></p>
+</footer>
+
+</div>
+</body>
+</html>
